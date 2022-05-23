@@ -21,6 +21,9 @@ class BoolDemo {
 		// o resultado de um operador relacional é um valor booleano
 		System.out.println("10 > 9 is " + (10 > 9));
 
+		b = 10 > 9;
+		System.out.println(b);
+
 	}
 
 }
