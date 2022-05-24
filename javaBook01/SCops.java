@@ -1,21 +1,19 @@
-// Demonstra os operadores de curso-circuito
+// Lê um caractere no teclado
 
-class SCops {
+class KbIn {
 
-	public static void main (String args []) {
+	public static void main (String args [])
+	
+		trows java.io.IOException {
+			
+			char ch;
 
-		int n, d, q;
+			System.out.print("Press a key followed by Enter: ");
+			
+			ch = (char) System.in.read();
+	
+			System.out.println("Your key is: " + ch);
 
-		n = 10;
-		d = 2;
-		
-		if (d != 0 && (n % d) == 0)
-			System.out.println(d + " is a factor of " + n);
-
-		d = 0;
-
-		if (d != 0 & (n % d) == 0)
-			System.out.println(d + " is a factor of " + n);	
 	}
 
 }
