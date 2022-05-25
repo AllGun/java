@@ -21,11 +21,17 @@ class CastDemo {
 
 		i = 100; 
 		b = (byte) i;
-		Sytem.out.println("Value of b: " + b);
+		System.out.println("Value of b: " + b);
 
+/*
 		i = 257;
 		b = (byte) i;
-		System.out.println("Value	
+		System.out.println("Value of b: " + b);
+*/
+
+		b = 88; // ASCII para x
+		ch = (char) b;
+		System.out.println("ch: " + ch);
 
 	}
 
