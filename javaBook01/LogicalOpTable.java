@@ -6,27 +6,27 @@ class LogicalOpTable {
 
 		boolean p, q;
 
-		System.out.println("P\tQ\tAND\tXOR\tNOT");
+		System.out.println("P\tQ\tAND\tOR\tXOR\tNOT(p)\tNOT(q)");
 
 		p = true; q = true;
-		System.out.println(p + "\t" + q + "\t");
-		System.out.println((p&q) + "\t" + (p|q) + "\t");
-		System.out.println((p^q) + "\t" + (!p));
+		System.out.print(p + "\t" + q + "\t");
+		System.out.print((p&q) + "\t" + (p|q) + "\t");
+		System.out.println((p^q) + "\t" + (!p) + "\t" + (!q));
 
 		p = true; q = false;
-		System.out.println(p + "\t" + q + "\t");
-		System.out.println((p&q) + "\t" + (p|q) + "\t");
-		System.out.println((p^q) + "\t" + (!p));
+		System.out.print(p + "\t" + q + "\t");
+		System.out.print((p&q) + "\t" + (p|q) + "\t");
+		System.out.println((p^q) + "\t" + (!p) + "\t" + (!q));
 
 		p = false; q = true;
-		System.out.println(p + "\t" + q + "\t");
-		System.out.println((p&q) + "\t" + (p|q) + "\t");
-		System.out.println((p^q) + "\t" + (!p));
+		System.out.print(p + "\t" + q + "\t");
+		System.out.print((p&q) + "\t" + (p|q) + "\t");
+		System.out.println((p^q) + "\t" + (!p) + "\t" + (!q));
 
 		p = false; q = false;
-		System.out.println(p + "\t" + q + "\t");
-		System.out.println((p&q) + "\t" + (p|q) + "\t");
-		System.out.println((p^q) + "\t" + (!p));
+		System.out.print(p + "\t" + q + "\t");
+		System.out.print((p&q) + "\t" + (p|q) + "\t");
+		System.out.println((p^q) + "\t" + (!p) + "\t" + (!q));
 
 	}
 
